@@ -7,9 +7,9 @@ Data has been collected from the following Twitter accounts:
 Periods of time for which data has been collected:
 - from 22/01/2019 to 22/02/2019 -> early pandemic
 - from 20/09/2020 to 21/10/2020 -> turning point of the epidemic and the serious controversy between Chinese and foreign media. At the UN General Assembly Trump criticized the Chinese government, and the Chinese media and the Ministry of Foreign Affairs refuted it. At the same time, China’s economy began to grow and became the only major economy in the world with positive growth.
-- from 17/03/2021 to 17/04/2021 -> ?
+- from 17/03/2021 to 17/04/2021 -> WHO released traceability report
 
-Keyword used to collect the data:
+Keywords used to collect the data:
 - `wuhan`, `china`, `coronavirus`, `covid`
 - `covid`, `china`, `vaccine`, (`wuhan`, `coronavirus` ? )
 - ?
