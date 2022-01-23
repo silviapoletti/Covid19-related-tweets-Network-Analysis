@@ -12,4 +12,4 @@ Periods of time for which data has been collected:
 Keywords used to collect the data:
 - `wuhan`, `china`, `coronavirus`, `covid`
 - `covid`, `china`, `vaccine`, (`wuhan`, `coronavirus` ? )
-- `covid`, `delta`, `vaccine`, `WHO`
+- `covid`, `vaccine`, `WHO`, `delta` (just a few tweets for the `delta` keyword)
