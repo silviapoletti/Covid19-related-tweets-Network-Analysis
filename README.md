@@ -10,6 +10,6 @@ Periods of time for which data has been collected:
 - from 17/03/2021 to 17/04/2021 -> WHO released traceability report. CGTN and BBC reported the news about this report in different ways: CGTN said WHO said Wuhan was not the only possible Covid source, but BBC said Covid comes most likely from China. Also, during this time, China vaccine was reported not to work, but inside-China accounts may avoided to talk about that.
 
 Keywords used to collect the data:
-- `wuhan`, `china`, `coronavirus`, `covid`
-- `covid`, `china`, `vaccine`, (`wuhan`, `coronavirus` ? )
-- `covid`, `vaccine`, `WHO`, `delta` (just a few tweets for the `delta` keyword)
+- first period -> `china`, `coronavirus`, `covid`, `wuhan`
+- second period -> `china`, `coronavirus`, `covid`, `wuhan`, `vaccine`
+- third period -> `covid`, `vaccine`, `WHO` (`delta` has been excluded)
