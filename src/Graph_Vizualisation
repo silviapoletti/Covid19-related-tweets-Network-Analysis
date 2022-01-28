@@ -1,5 +1,0 @@
-#before starting, it's inmortant to install the following libraries for graph vizualisation : python-igraph and cairocffi.
-!pip install python-igraph
-!pip install cairocffi
-
-
