@@ -27,6 +27,6 @@ latex/*.pdf
 *.bbl
 *.blg
 *.gz
-
+*.fdb_latexmk
 # csv with all the tweets
 all_tweets.csv
