@@ -18794,6 +18794,7 @@ person,event,1
 person,hick,1
 person,mike,1
 person,meet,1
+exhibition,victory,1
 press,military,1
 press,reed,2
 press,medical,2
@@ -19414,6 +19415,12 @@ look,offer,1
 look,boost,1
 look,tourism,1
 look,third,1
+exclusive,talented,1
+exclusive,guitar,1
+exclusive,girl,1
+talented,guitar,1
+talented,girl,1
+guitar,girl,1
 beijing,festival,1
 beijing,nine,1
 beijing,percent,1
