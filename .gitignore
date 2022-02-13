@@ -30,3 +30,5 @@ latex/*.pdf
 *.fdb_latexmk
 # csv with all the tweets
 all_tweets.csv
+hystograms/
+linear_regression/
