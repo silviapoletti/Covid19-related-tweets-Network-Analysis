@@ -1,6 +1,6 @@
 # Covid-related tweets inside and outside China
 
-![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/29212b9b7dfdf89332fc3fcada2d82686137e2bf/Images/Network%20Science.png?raw=true)
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/d6d91258308f0908c5a399c88910caeff869bc95/Images/Network%20Science.png?raw=true)
 
 Data has been collected from the following Twitter accounts:
 - inside China: `CGTNOfficial`, `XHNews`
