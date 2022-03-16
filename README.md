@@ -26,3 +26,30 @@ In particular, we did some exploratory analysis on the network using the main ce
 The following is a log-log plot of the degree distribution of the two networks: the behaviour is almost equal in the two graphs, except for a small shift to the left of the China mean degree. It worths also noticing that for big enough degrees the two distributions follow a power law pattern.
 
 ![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/e0c05830628538215f035f5ed3e9f0497b16bf57/Images/degree_distributions.png?raw=true)
+
+In order to better understand the structure of the networks, we investigate its robustness capabilities. 
+To do that we look at the behaviour of the number of connected components and of the size of the giant component under different nodes removal strategies, i.e. attacks:
+• Random failure: we remove random nodes;
+• Hubs removal: we remove the words with an higher degree first;
+• Closeness removal: we remove the nodes with higher closeness centrality first;
+• Betweenness removal: we remove the nodes with higher betweenness centrality first.
+
+Inside China and Outside China networks behave in a similar way as described in the following figure.
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/3168c6707d1b34c549bb90b9e818faf038dde005/Images/A_T.png?raw=true)
+
+In order to get some statistical significance from our analysis, we decided to test some probabilistic models that tries to capture the generative process behind the network itself. In particular, we tried p2-ergm and AME models.
+After fitting the model on both of the networks, we compared additive effects for the highest common Pagerank nodes as shown in the following.
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/779ee67da35bab7c3e3d6d913b351621fc28d049/Images/additive_effects_ame.png?raw=true)
+
+The next figure represents the “best superposition” of latent nodal representations of the highest Pagerank words in the two networks:
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/779ee67da35bab7c3e3d6d913b351621fc28d049/Images/latent_effects.png?raw=true)
+
+Finally, we have a boxplot comparison of the amen-simulated PageRank marginal distribution for the highest PageRank words in the two networks:
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/779ee67da35bab7c3e3d6d913b351621fc28d049/Images/simulated_pr_usa.png?raw=true)
+
+
+## Community Detection
