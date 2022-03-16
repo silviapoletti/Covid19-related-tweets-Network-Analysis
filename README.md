@@ -1,6 +1,6 @@
 # Covid-related tweets inside and outside China
 
-![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/ecfbd8365ca7cad2976aa6a9ef5a0d6535a6e818/Images/ChinaUSA.png?raw=true)
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/29212b9b7dfdf89332fc3fcada2d82686137e2bf/Images/Network%20Science.pdf?raw=true)
 
 Data has been collected from the following Twitter accounts:
 - inside China: `CGTNOfficial`, `XHNews`
@@ -53,3 +53,9 @@ Finally, we have a boxplot comparison of the amen-simulated PageRank marginal di
 
 
 ## Community Detection
+We identify the hidden relationships that may exist among the nodes in a network, indicating communities of nodes. 
+We implemented six different strategies to carry out the task: Kernighan–Lin bipartition, dendrograms, Clauset-Newman-Moore and Louvain method (modularity maximization) for discovering some relevant network partitions, while Big CLAM and Clique percolation for highlighting possibly overlapping communities.
+
+The following are examples of community detection graphical representation:
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/29212b9b7dfdf89332fc3fcada2d82686137e2bf/Images/den-all.png?raw=true)
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/29212b9b7dfdf89332fc3fcada2d82686137e2bf/Images/China_louvain.png?raw=true)
