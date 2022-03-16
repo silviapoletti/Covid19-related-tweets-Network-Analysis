@@ -1,5 +1,7 @@
 # Covid-related tweets inside and outside China
 
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/ecfbd8365ca7cad2976aa6a9ef5a0d6535a6e818/Images/ChinaUSA.png?raw=true)
+
 Data has been collected from the following Twitter accounts:
 - inside China: `CGTNOfficial`, `XHNews`
 - outside China: `AJEnglish`, `AP`, `BBCWorld`,  `CNN`, `Reuters`
@@ -13,3 +15,14 @@ Keywords used to collect the data:
 - first period -> `china`, `coronavirus`, `covid`, `wuhan`
 - second period -> `china`, `coronavirus`, `covid`, `wuhan`, `vaccine`
 - third period -> `covid`, `vaccine`, `WHO` (`delta` has been excluded)
+
+
+## Exploratory Analysis
+
+In order to try to get some insights about the collected data, we decided to perform an initial exploratory analysis.
+This section is entirely dedicated to the presentation of the methods we used in order to extract information from the “China” and “outside China” tweets.
+In particular, we did some exploratory analysis on the network using the main centrality measures.
+
+The following is a log-log plot of the degree distribution of the two networks: the behaviour is almost equal in the two graphs, except for a small shift to the left of the China mean degree. It worths also noticing that for big enough degrees the two distributions follow a power law pattern.
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/e0c05830628538215f035f5ed3e9f0497b16bf57/Images/degree_distributions.png?raw=true)
