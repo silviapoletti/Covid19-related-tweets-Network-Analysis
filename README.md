@@ -53,9 +53,37 @@ Finally, we have a boxplot comparison of the amen-simulated PageRank marginal di
 
 
 ## Community Detection
+
 We identify the hidden relationships that may exist among the nodes in a network, indicating communities of nodes. 
 We implemented six different strategies to carry out the task: Kernighan–Lin bipartition, dendrograms, Clauset-Newman-Moore and Louvain method (modularity maximization) for discovering some relevant network partitions, while Big CLAM and Clique percolation for highlighting possibly overlapping communities.
 
 The following are examples of community detection graphical representation:
+
 ![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/29212b9b7dfdf89332fc3fcada2d82686137e2bf/Images/den-all.png?raw=true)
+
 ![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/29212b9b7dfdf89332fc3fcada2d82686137e2bf/Images/China_louvain.png?raw=true)
+
+In general, Clauset-Newman-Moore and the Louvain method find pretty similar communities: the number of communities may vary but, overall, the semantic content remains almost the same. We will leave out of the analysis some very small and not much interpretable communities. This kind of communities increases in number as we proceed from the earlier period to the later period: this could possibly mean that the Covid-19 debate was more polarized in some major topics during the January-February 2020 period, while getting more various and including much different topics in the March-April 2021 period. This is reasonable because at first the official channel news tended to report almost the same information about the health emergency, but as time passed they started to enrich and vary the content of their tweets.
+The following table displays the communities detected with Modularity maximization methods on medium-size network referring to all the three selected periods together. 
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/ec7f5223092dc278e5bd746340393a96debd1bb9/Images/table.png?raw=true)
+
+## Sentiment Analysis
+
+We investigate the differences in the medias discussion (inside and outside China) based on the analysis of sentiment with the use of the LIWK software: we spot the difference in values of the markers tweets over the different time periods and compare through linear regression different marker.
+
+The following image reports the following information: the variables negative emotions (a) and death (f) are much higher in the first period and tend to decrease in the following two periods. This trend may be due to the desire to reassure the population after the first period, in which panic broke out all over the world also because of the excessive amount of alarmist news. In addition the chinese media tends to write tweets containing more numbers (k). On the contrary, the variables empowerment (g), positive emotions (b) and affiliation (j) increase in the second two periods for tweets outside China, showing the desire to report the contingent situation as under control. These variables, for China’s tweets, are already very high in the first period, demonstrating (apparent) positivity and control even in a very critical moment. The most substantial differences are in the variables we (h) and they (i). The value of we is much higher in tweets from outside China for all three periods. The value of they, on the other hand, is much higher in tweets from China in the first period and then stabilises in subsequent periods.
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/bars.png?raw=true)
+
+To further investigate the differences between tweets from inside and outside China, we analyzed the variables "we" and "they", which indicate belonging and distancing respectively, by associating them with the variables positive emotions and negative emotions. The following figure show the linear regression (with confidence intervals) of "they" versus "negemo" (the same has be done for "we" versus "posemo"), first considering all periods together and then dividing into the single periods. 
+The they-negemo association appears much stronger inside China (considering the slope).
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/linreg.png?raw=true)
+
+The following image show the 20 obtained words with higher projected Negative emotions during the first period on the left and the 20 words with higher m∗w on the right, inside (first row) and outside China (second row). For instance the words "bat", "soup", "goodwill". Those are all related with tweets that clearly aim to defend the
+China from the "echoing" of being the source of Covid-19, "criticizing" the "unfriendly" U.S comments as not a sign of "goodwill".
+
+![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/clouds.png?raw=true)
+
+
