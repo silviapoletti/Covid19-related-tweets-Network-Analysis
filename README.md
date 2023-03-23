@@ -44,13 +44,29 @@ With respect to robustness, China and Outside China networks behave in a similar
 <p align="center">
   <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/robustness.png"/>
 </p>
+
+Deleting the 40% of the number of nodes is enough to disrupt
+the networks, either if we use Degree or Closeness
+removal strategy. It indicates that the network has many
+hubs. This also explain the behaviour under random attack
+which is similar to the one of a scale free network.
   
-In order to get some statistical significance from our analysis, we decided to test some probabilistic models that tries to capture the generative process behind the network itself. In particular, we tried p2-ergm and AME models.
+In order to get some statistical significance from our analysis, we decided to test some probabilistic models that tries to capture the generative process behind the network itself. In particular, we'll focus on Amen models.
+These models try to fit the real probability
+distribution over the space of graphs, based on the observation of
+the collected sample network.
+
 After fitting the model on both networks, we compared additive effects for the highest common Pagerank nodes as shown in the following.
 
 <p align="center">
   <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/additive_effects_ame.png"/>
 </p>
+
+According to the Amen model, if a node has a really negative additive
+effect it is less likely to receive connections.
+Among the words with “opposite fitness effects” in the two
+networks we find: `pandemic`, `president`, `coronavirus` and
+`spread`.
 
 The next figure represents the “best superposition” of latent nodal representations of the highest Pagerank words in the two networks:
 
