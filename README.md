@@ -118,10 +118,10 @@ To further investigate the differences between tweets from inside and outside Ch
 The `they`-`negemo` association appears much stronger inside China (considering the slope).
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/linreg.png?raw=true"/>
+  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/ec9ee3509b3951a689ae16b3131481bd9c6717f1/report/linear_regression.png"/>
 </p>
 
-The following image show the 20 obtained words with higher projected Negative emotions during the first period on the left and the 20 words with higher m∗w on the right, inside (first row) and outside China (second row). For instance the words "bat", "soup", "goodwill". Those are all related with tweets that clearly aim to defend the
+The following image show the 20 words having higher projected negative emotions during the first period (on the left) and the 20 words with higher m∗w on the right, inside (first row) and outside China (second row). For instance the words "bat", "soup", "goodwill". Those are all related with tweets that clearly aim to defend the
 China from the "echoing" of being the source of Covid-19, "criticizing" the "unfriendly" U.S comments as not a sign of "goodwill".
 
 ![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/clouds.png?raw=true)
