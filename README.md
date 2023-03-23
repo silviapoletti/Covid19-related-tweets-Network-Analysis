@@ -59,7 +59,7 @@ the collected sample network.
 After fitting the model on both networks, we compared additive effects for the highest common Pagerank nodes as shown in the following.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/additive_effects_ame.png"/>
+  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/dbf9dcf1c660a7ee78c81297bfc3f9d5c06df24c/report/additive_effects_ame.png"/>
 </p>
 
 According to the Amen model, if a node has a really negative additive
