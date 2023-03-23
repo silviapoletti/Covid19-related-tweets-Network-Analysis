@@ -42,7 +42,7 @@ To do that we look at the behaviour of the number of connected components and of
 With respect to robustness, China and Outside China networks behave in a similar way, as described in the following figure.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/robustness.png"/>
+  <img height=50% src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/robustness.png"/>
 </p>
 
 Deleting the 40% of the number of nodes is enough to disrupt
