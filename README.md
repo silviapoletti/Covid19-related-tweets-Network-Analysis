@@ -121,15 +121,20 @@ The `they`-`negemo` association appears much stronger inside China (considering 
   <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/ec9ee3509b3951a689ae16b3131481bd9c6717f1/report/linear_regression.png"/>
 </p>
 
-The following image show the 20 words having higher projected negative emotions during the first period (on the left) and the 20 words with higher m∗w on the right, inside (first row) and outside China (second row). For instance the words "bat", "soup", "goodwill". Those are all related with tweets that clearly aim to defend the
-China from the "echoing" of being the source of Covid-19, "criticizing" the "unfriendly" U.S comments as not a sign of "goodwill".
+The following shows the 20 words having higher projected negative emotions during the first period, inside and outside China. 
 
-![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/clouds.png?raw=true)
+<p align="center">
+  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/b11ba1fe41f45214b58e9d446e5e195f63eb66a2/report/word_clouds.png"/>
+</p>
 
-The last figure compares the networks obtained by considering tweets inside and outside China separately, for each of the three selected periods.
-The colour of each node represents the community it belongs to, while the size is directly proportional to the value assigned to each word by the projection algorithm.
-For the first period, looking at tweets from Chinese news accounts (a), we see in the biggest community (purple) words such as "unfriendly", "bat", "criticize", "in-action", all of which are contained in tweets complaining about the behaviour of America, which spreads fake news and blames China for the pandemic. The orange community also reports Asian people being discriminated against and accused of carrying the virus to Europe. The green community with the words "crazy", "mourn" and "slander" contains words related to news that both describe as absurd the theory that the virus was created by China and mourn doctor Li Wenliang, a doctor who passed away after being infected with the coronavirus.
-For tweets outside China (b), the word with the highest value is "flyer". When analyzing the news, we notice that this word often appears in news reporting that when
+For instance the words `bat`, `soup`, `goodwill` are all related to tweets aiming to defend China: the Chinese news channels' tweets tend to `criticize` the `unfriendly` and lacking of `goodwill` reports from outside China news channels.
+
+The last figure compares the networks obtained by considering tweets inside and tweets outside China in the second period.
+The colour of each node represents the community it belongs to, while the size is directly proportional to the value assigned to each word by the LIWC projection algorithm.
+For the first period, looking at tweets from Chinese news accounts (a), we see in the biggest community (purple) words such as `unfriendly`, `bat`, `criticize`, `inaction`, all of which are contained in tweets complaining about the behaviour of America, which spreads fake news and blames China for the pandemic. The orange community also reports Asian people being discriminated against and accused of carrying the virus to Europe. The green community with the words `crazy`, `mourn` and `slander` contains words related to news that both describe as absurd the theory that the virus was created by China and mourn doctor Li Wenliang, a doctor who passed away after being infected with the coronavirus.
+For tweets outside China (b), the word with the highest value is `flyer`. When analyzing the news, we notice that this word often appears in news reporting that when
 the pandemic broke out, flyers were distributed in California urging people not to go to Asian restaurants, blaming them for spreading the virus. This word belongs to a community (the purple one) in which also the other most important words are used in the same news or in news with different topics, all negatively related to China.
 
-![alt text](https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/proj.png?raw=true)
+<p align="center">
+  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/667070856919bb1f86e9d41007b5f879dbc61df7/Images/proj.png?raw=true"/>
+</p>
