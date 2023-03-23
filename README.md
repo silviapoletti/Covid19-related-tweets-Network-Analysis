@@ -68,17 +68,22 @@ Among the words with “opposite fitness effects” in the two
 networks we find: `pandemic`, `president`, `coronavirus` and
 `spread`.
 
-The next figure represents the “best superposition” of latent nodal representations of the highest Pagerank words in the two networks:
+The next figure represents the matrix plot of the difference
+in latent effects between "China" and "Outside China" networks.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/latent_effects.png"/>
+  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/delta_latent_matrix.png"/>
 </p>
 
-Finally, we have a boxplot comparison of the amen-simulated PageRank marginal distribution for the highest PageRank words in the two networks:
-
-<p align="center">
-  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/simulated_pr_usa.png"/>
-</p>
+If the difference varies significantly from
+zero it means that the interaction between the two nodes in
+question have a different effect in the two graphs.
+Even thought the interaction effects here seems to be really
+labile, some differences are noticeable: `coronavirus`-`china`,
+`first`-`covid`, `positive`-`death`, `covid`-`health`, `covid`-`china`,
+`covid`-`spread` and others. It may be important to notice that
+the word `china` may create a bias in the intepretation of
+these differences, since a Chinese journal is less likely to use autoreferential terms.
 
 
 ## Community Detection
