@@ -72,7 +72,7 @@ The next figure represents the matrix plot of the difference
 in latent effects between "China" and "Outside China" networks.
 
 <p align="center">
-  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/8520d5c3b42ec8d9a9a6a7481dc560d18258362a/report/delta_latent_matrix.png"/>
+  <img src="https://github.com/silviapoletti/Covid19-related-tweets-Network-Analysis/blob/fd08929a4debaca5630a1e37741b0df97492db2d/report/delta_latent_matrix.png"/>
 </p>
 
 If the difference varies significantly from
